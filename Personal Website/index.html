@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7d68b148d3.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<!-- Header  -->
+<div id="header">
+    <div class="container">
+        <nav>
+            <h1 class="logo">Kunal.</h1>
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Web Developer</p>
+            <h1>Hi, I'm <span>Kunal</span><br>Ghatode from India.</h1>
+        </div>
+    </div>
+</div>
+<!-- Header -->
+    
+
+
+<!-- About  -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="images/kunal (2).jpg">
+            </div>
+            <div class="about-col2">
+                <h1 class="subtitle">About Me</h1>
+                <p>Hi I am Kunal Ghatode from India. I am graduated from Sushila Devi Bansal College Of Engineering, Indore with 8.00 CGPA. I am a Web Developer Intern in RealTech Eduaction.</p>
+                <br>
+                <hr>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App Interfaces</li>
+                        <li><span>Web Development</span><br>Web Development</li>
+                        <li><span>UI/UX</span><br>Building Android/iOS apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>B. Tech. from Sushila Devi Bansal College Of Engineering, Indore.</li>
+                        <li><span>2019</span><br>12th from Sri Chaitanya Junior Kalasala, Hyderabad.</li>
+                        <li><span>2017</span><br>10th from Ram Shanti Vidya Mandir, Pandhurna.</li>
+                    </ul>
+                </div>
+            </div>
+         </div>
+    </div>
+</div>
+<!-- About -->
+
+
+
+<!-- Services -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX  Design</h2>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Services-->
+
+
+
+
+<!--Portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <h3>Calculator</h3>
+                <a href="https://kunalghatode.github.io/calculator/" target="_blank"><img src="images/work-1.png"></a>
+                <!-- <div class="layer">
+                    <h3>Calculator App</h3>
+                    <p>This Calculator app is an application developed for android cells phones and tablets. It enables the users to perform fundamental mathematical operations such as addition, subtraction, multiplication and division on their phone. Being installed on phone, it always remains with the user, helps in daily life calculations and works as a typical android calculator app.</p>
+                    <a href="https://kunalghatode.github.io/calculator/" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div> -->
+            </div>
+            <div class="work">
+                <h3>Blogging Site</h3>
+                <a href="https://kunalghatode.github.io/iCoderBootstrap/" target="_blank"><img src="images/work-2.png"></a>
+                <!-- <div class="layer">
+                    <h3>Blogging Site</h3>
+                    <p>A blog that focuses on the writer's individual experiences and thoughts. Personal blogs are usually written in a first-person perspective, making them intimate and personal.</p>
+                  <a href="https://kunalghatode.github.io/iCoderBootstrap/" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div> -->
+            </div>
+            <div class="work">
+                <h3 class="currency">Currency Converter</h3>
+                <a href="https://kunalghatode.github.io/currencyconverter/" target="_blank"><img src="images/work-3.png"></a>
+                <!-- <div class="layer">
+                    <h3>Currency converter</h3>
+                    <p>A currency converter will help international travellers study the price of foreign goods and services, helping cost-conscious visitors find out how much their money is worth while travelling overseas.</p>
+                    <a href="https://kunalghatode.github.io/currencyconverter/" target="_blank"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div> -->
+            </div>
+        </div>
+    </div>
+</div>
+<!--Portfolio-->
+
+
+
+
+
+<!--Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>kunalghatode2002@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-square-phone"></i>0123456789</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="https://instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Resume - kunal.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="text" name="email" placeholder="Your Email" required>
+                    <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ Kunal. <i class="fa-solid fa-user-secret"></i></p>
+    </div>
+</div>
+<!--Contact-->
+
+<script src="script.js"></script>
+
+</body>
+</html>
