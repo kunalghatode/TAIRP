@@ -1,2 +1,1 @@
-# TAIRP
-Intership projects
+ https://kunalghatode.github.io/TAIRP/
